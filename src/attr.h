@@ -5,9 +5,7 @@
  * ("runlist") encoding. Deliberately agnostic to attribute *type*: this
  * layer hands back bytes, the layers above give them meaning.
  *
- * On-disk layouts follow the public ATTRIBUTE_RECORD_HEADER spec
- * (learn.microsoft.com, "Master File Table") and the Linux-NTFS
- * documentation project.
+ * On-disk layouts follow the Linux-NTFS documentation project.
  */
 #ifndef ATTR_H
 #define ATTR_H
